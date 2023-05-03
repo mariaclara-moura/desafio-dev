@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Desafio Dev - Citi</title>
+</head>
+<body>
+  <main>
+    <header>
+
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Sobre mim</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    <section id="home">
+      <div class="home-info">
+        <h2>Oi, CITi!</h2>
+        <span class="home-resume">
+          Me chamo Maria Clara, tenho 19 anos e atualmente estou no 2º (quase 3º) 
+          período de Ciência da Computação. Conheço um pouquinho de HTML, CSS, 
+          Javascript, Python e C++.
+        </span>
+
+        <button>
+          <a href="#projects">Veja alguns dos meus projetos!</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="./img/eu.jpg" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/proj.ip.jpeg" alt="Foto de um jogo">
+            </div>
+            <div class="project-info">
+              <h2>GET THE B(OB)URGER!</h2>
+              <p>Desenvolvimento de um sistema interativo para o projeto da disciplina de Introdução à Programação do Centro de Informática da Universidade Federal de Pernambuco (CIn - UFPE)</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/PONG GAME.jpeg" alt="Foto de um jogo">
+            </div>
+            <div class="project-info">
+              <h2>PONG GAME</h2>
+              <p>Jogo desenvolvido utilizando HTML, Javascript e a Biblioteca P5 durante o Curso de Extensão Universitária na modalidade de Difusão: Projeto Codifique (modalidade online)</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/CALCULADORA DE MEDIA.jpeg" alt="Foto de um site">
+            </div>
+            <div class="project-info">
+              <h2>Calculadora de Médias</h2>
+              <p>Projeto desenvolvido durante a Maratona de Programação VI Edição da Kenzie abordando HTML, CSS e JavaScript.</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <footer id="contato">
+    <a href="https://github.com/mariaclara-moura" target="_blank">
+        <img src="ÍCONES/github.svg">
+        <p>Github</p></a>
+    <a href="https://www.instagram.com/mclaraamoura/" target="_blank">
+        <img src="ÍCONES/instagram.svg">
+        <p>Instagram</p></a>
+    <a href="mailto:mcam3@cin.ufpe.br" target="_blank">
+        <img src="ÍCONES/gmail.svg">
+        <p>Gmail</p></a>
+</footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
